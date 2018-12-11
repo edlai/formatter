@@ -2,12 +2,12 @@
 
 ## Coding
 
-- C-kr
-- Java
-- Python
+- [C-kr](c-kr)
+- [Java](java)
+- [Python](py)
 
 ## Data
 
-- XML
+- [XML](xml)
 - CSV (tdb)
-- JSON
+- [JSON](json)
