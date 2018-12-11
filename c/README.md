@@ -3,7 +3,6 @@
 - astyle
 
   ```sh
-  apt update
   apt install astyle
   ```
 
