@@ -4,6 +4,7 @@
 
 ## Usage
 
-```
-# cat test.json | pjson
-```
+ - read file by `cat` and pipe to `pjson`    
+   ```
+   cat test.json | pjson
+   ```
