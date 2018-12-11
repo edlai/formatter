@@ -4,7 +4,24 @@
 
 ## Usage
 
- - read file by `cat` and pipe to `pjson`    
+ - `echo` the string and pipe to `pjson`    
+   
    ``` sh
-   cat test.json | pjson
-   ```
+   echo '{"object": {"a": "b","c": "d","e": "f"},"array": [1,2],"string": "Hello World"}' | pjson
+   
+- Result    
+
+  ```json
+  {
+    "object": {
+      "a": "b",
+      "c": "d",
+      "e": "f"
+    },
+    "array": [
+      1,
+      2
+    ],
+    "string": "Hello World"
+  }
+  ```
