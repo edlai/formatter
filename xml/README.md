@@ -1,6 +1,10 @@
 ## Requirements
 
-- libxml2-utils `apt install libxml2-utils`
+- libxml2-utils    
+
+  ``` sh
+  apt install libxml2-utils
+  ```
 
 ## Usage
 
