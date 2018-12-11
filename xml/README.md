@@ -16,7 +16,7 @@
 
 - Result    
 
-  ```sh
+  ```xml
   <?xml version="1.0"?>
   <root>
     <foo a="b">ccc</foo>
