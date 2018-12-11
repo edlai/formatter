@@ -14,3 +14,12 @@
   echo '<root><foo a="b">ccc</foo><bar value="ddd" /></root>' | xmllint --format -
   ```
 
+- Result    
+
+  ```sh
+  <?xml version="1.0"?>
+  <root>
+    <foo a="b">ccc</foo>
+    <bar value="ddd"/>
+  </root>
+  ```
