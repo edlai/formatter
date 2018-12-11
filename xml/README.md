@@ -4,8 +4,9 @@
 
 ## Usage
 
-- `echo` a string and pipe to `xmllint`
-  ```
+- `echo` a string and pipe to `xmllint`    
+
+  ``` sh
   echo '<root><foo a="b">ccc</foo><bar value="ddd" /></root>' | xmllint --format -
   ```
 
