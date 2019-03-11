@@ -6,6 +6,12 @@
   apt install astyle
   ```
 
+## Pre
+
+```
+sed -i $'s/\t/    /g' *.txt
+```
+
 ## Usage
 
 - pipe to `astyle` with `kr` style and indent as 2-space
